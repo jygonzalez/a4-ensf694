@@ -1,6 +1,6 @@
 /**
  *  File Name: lookupTable.h
- *  Assignment: ENSF 694 Summer 2024 - Lab 4 Exercise A Part 1
+ *  Assignment: ENSF 694 Summer 2024 - Lab 4 Exercise A Part 2
  *  Created by: Mahmood Moussavi
  *  Completed by: Yael Gonzalez
  *  Submission Date: July 26, 2024
@@ -8,6 +8,7 @@
 
 #ifndef LOOKUPTABLE_H
 #define LOOKUPTABLE_H
+#include "Point.h"
 #include <iostream>
 using namespace std;
 
@@ -24,7 +25,7 @@ using namespace std;
 //    In this version of the LookupTable a new struct type called Pair
 //    is introduced which represents a key/data pair.
 
-typedef string Type;
+typedef Point Type;
 
 struct Pair
 {
